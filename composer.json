@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "toiladev/squirrel-comment": "dev",
-        "toiladev/squirrel-menu": "dev",
+        "toiladev/squirrel-comment": "dev-*",
+        "toiladev/squirrel-menu": "dev-*",
         "kalnoy/nestedset": "^6.0"
     },
     "autoload": {

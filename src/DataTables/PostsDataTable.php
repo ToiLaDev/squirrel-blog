@@ -21,7 +21,6 @@ class PostsDataTable extends BaseDataTable
 
     protected $columns = [
         'id' => [
-            'data' => '_id',
             'title' => 'ID',
             'raw' => [
                 'type' => 'id'
@@ -40,9 +39,7 @@ class PostsDataTable extends BaseDataTable
         'action' => [
             'raw' => [
                 'type' => 'acast'
-            ],
-            'width' => 80,
-            'addClass' => 'text-center'
+            ]
         ]
     ];
 
